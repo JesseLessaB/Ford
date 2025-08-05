@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ford</title>
     <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/contato.css">
 </head>
 
 <body>
@@ -21,8 +22,39 @@
         <div></div>
     </header>
 
-    <main>
-
+    <main class="contatoPagina">
+        <div class="contato-imagem">
+            <img src="img/xls 2.2 diesel.jpg" alt="Veiculo contato">
+        </div>
+        <section class="formularioContainer">
+            <form class="formulario">
+                <h3>Sobre Você</h3>
+                <div class="inputGrupo">
+                    <input type="text" placeholder="Nome Completo">
+                </div>
+                <div class="inputGrupo">
+                    <input type="email" placeholder="E-mail">
+                </div>
+                <div class="inputGrupo">
+                    <input type="tel" placeholder="Telefone">
+                </div>
+                <div class="inputGrupo">
+                    <select>
+                        <option value="" disabled selected hidden>Tipo de contato</option>
+                        <option value="elogio">Elogio</option>
+                        <option value="reclamacao">Reclamação</option>
+                        <option value="solicitacao">Solicitação</option>
+                    </select>
+                </div>
+                <div class="inputGrupo">
+                    <textarea placeholder="Digite sua mensagem" rows="2">
+                    </textarea>
+                </div>
+                <button type="submit" class="submitBotao">
+                    <span>Enviar mensagem</span>
+                </button>
+            </form>
+        </section>
     </main>
 
     <footer>
