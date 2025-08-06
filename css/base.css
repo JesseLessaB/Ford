@@ -35,7 +35,7 @@ header nav ul{
 
 header nav a{
     text-decoration: none;
-    color: rgb(27, 57, 78);
+    color: #0c3fad;
     font-weight: bold;
     font-size: 18px;
     transition: color 0.3s ease;
