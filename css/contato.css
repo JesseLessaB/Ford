@@ -43,6 +43,7 @@
 .inputGrupo input,
 .inputGrupo select,
 .inputGrupo textarea {
+
     width: 100%;
     padding: 7px 15px;
     border: 1px solid #ddd;
@@ -73,14 +74,34 @@
 }
 
 .submitBotao{
-    background: #00274C;
+    background-color: #1351d8;
     color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    margin-top: 1px;
+    display: flex;
     justify-content: center;
-    border-radius: 12px;
-    padding: 5px 8px;
-    width: 8rem;
-    height: 3rem;
-    position: relative;
-    left: 4rem;
+    align-items: center;
+}
 
+.submitBotao:hover{
+    background-color: #00274C;
+    color: white;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px){
+    .contatoPagina{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .formularioContainer{
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+    }
 }
